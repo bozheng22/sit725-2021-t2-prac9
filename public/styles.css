@@ -1,0 +1,28 @@
+.helloInput {
+  width: 200px;
+}
+
+.title {
+  color: white;
+}
+.mainText {
+  color: white;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #768fa0;
+}
+
+.page-footer {
+  background-color: #9e65a9;
+}
+main {
+  flex: 1 0 auto;
+}
+
+.card .card-image img {
+  height: 200px;
+}
