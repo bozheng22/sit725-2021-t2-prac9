@@ -15,7 +15,7 @@ Once the serveris running, test it by acccessing the following URL:
 
 files in the repository
 `server.js`
-The server is written with node.js. It is litsening on port 3000.
+The server is written with node.js. It is listening on port 3000.
 
 `.gitignore`
 list of file patterns that should not be stored in Github.
@@ -31,14 +31,14 @@ Install docker engine on your computer. Following the link: https://docs.docker.
 
 Sign up a new account if you don't have one
 
-make sure the docker is insatlled properly on your computer
+Make sure the docker is insatlled properly on your computer
 
 Create a Dockerfile and .dockerignore under root folder 
 
-run the follwoing command to build your docker image
+Run the follwoing command to build your docker image
 `docker build -t dockeruser/myproject .`
 
-run you docker by running:
+Run the docker container by running:
 `docker run -d -p 3000:3000 dockeruser/myproject`
 
 
