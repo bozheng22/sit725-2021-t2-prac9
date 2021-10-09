@@ -10,7 +10,7 @@ Packages are dropped into the folder:
 Run the the server by using
   `npm run`
 
-Once the server is running, test it by acccessing the following URL:
+Once the server is running, test it by accessing the following URL:
   http://localhost:3000
 
 files in the repository
