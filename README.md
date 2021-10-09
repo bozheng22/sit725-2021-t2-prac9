@@ -1,4 +1,4 @@
-This is my simple application for leaning javascript and node.js. It uses Materialize CSS for the UI interface, Socket IO for real time communications as well.
+This is my simple project to help me to learn how to develop a small website by using javascript. The website uses node.js and express.js. It uses Materialize CSS for the UI interface, Socket IO for real time communications as well.
 
 After cloning the repo from the Github, install all the packages by running
   `npm install`
