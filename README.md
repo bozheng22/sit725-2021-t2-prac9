@@ -5,7 +5,7 @@ After cloning the repo from the Github, install all the packages by running
 
 Packages are dropped into the folder: 
   node_modules 
-`npm install` will install the required modules. The node modules will not be uploaded.
+`npm install` will install the required modules. The node modules will not be uploaded to Github for saving download size.
 
 Run the the server by using
   npm run
