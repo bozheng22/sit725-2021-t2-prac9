@@ -28,51 +28,73 @@ Standard package.json file for node packages. It records important metadata abou
 
 # package the website into docker
 Install docker engine on your computer. Following the link: https://docs.docker.com/get-docker/
+
 Sign up a new account if you don't have one
+
 make sure the docker is insatlled properly on your computer
+
 Create a Dockerfile and .dockerignore under root folder 
+
 run the follwoing command to build your docker image
 `docker build -t dockeruser/myproject .`
+
 run you docker by running:
 `docker run -d -p 3000:3000 dockeruser/myproject`
 
 
 # SIT725-2021-T2-PRAC7
 Package the website to docker
+
 add Dockerfile and .dockerignore
 
 # SIT725-2021-T2-PRAC6
 Mocha is a popular JavaScript testing framework that runs on Node.js and in the browser. It simplifies asynchronous testing. It generates accurate test reports as well as stack traces for any uncaught exceptions.
+
 Chai, on the other hand, is an assertion library that can be used in conjunction with any JavaScript testing framework.
 
-npm install mocha --save
-npm install chai --save
+`npm install mocha --save`
+`npm install chai --save`
+
 add "test": "mocha --report spec" into package.json
+
 Add the a simple test script - test.js
 
 # SIT725-2021-T2-PRAC5
 
 import the GIT repo from PRAC4
+
 Trying to create the MVC model base on PRAC4, but failed.
+
 Pretty much use the Dr. Bonti's repo - https://github.com/alexbonti/deakin-crowds
+
 make changes on modal structure in index.html
 
 # SIT725-2021-T2-PRAC4
 
 Follow Navit's ppt to create REST API
-npm install mongodb --save
+
+`npm install mongodb --save`
+
 make a connection to mongodb
+
 add card's array to database
 
 # SIT725-2021-T2-PRAC3
 
 Create a new GIT repo - PRAC3
-npm init
-npm install express --save
-npm install bady-parser
+
+`npm init`
+
+`npm install express --save`
+
+`npm install bady-parser`
+
 create server.js, server listening on port 3000
 
 - app.use(express.static(\_\_dirname+'/public')) # use the static page under public folder
+
 - app.use(express.json()) a method inbuilt in express to recognize the incoming Request Object as a JSON Object
+
   Add some basic HTML code to index.html
+  
   add cards from a constant array objects
