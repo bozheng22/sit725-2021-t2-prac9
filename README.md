@@ -1,7 +1,7 @@
 This is my simple application for leaning javascript and node.js. It uses Materialize CSS for the UI interface, Socket IO for real time communications as well.
 
 After cloning the repo from the Github, install all the packages by running
-  npm install
+  `npm install`
 
 Packages are dropped into the folder: 
   node_modules 
